@@ -38,7 +38,7 @@ bulletList = ul $ do
 
 (Note that the `Data.Foldable` versions of `traverse_` and `for_` can blow the stack if you have a lot of items (just short of 10k items will do it), but because `Markup` has a `MonadRec` instance, you can use the implementations from [purescript-safely](https://pursuit.purescript.org/packages/purescript-safely/) if you're worried about this.)
 
-Use the `#!` combinator to attach event handlers:
+Use the `#!` combinator to attach event handlers: (这个看起来没有实现)
 
 ```purescript
 import Effect.Class.Console (log)
